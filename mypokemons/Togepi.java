@@ -25,7 +25,8 @@ public class Togepi extends Pokemon {
         baseSpAtt = 40.0;
         baseSpDef = 65.0;
         baseSpeed = 20.0;
-        this.setStats(baseHP, baseAtt, baseDef, baseSpAtt, baseSpDef, baseSpeed);
+        this.setStats(baseHP, baseAtt, baseDef,
+                      baseSpAtt, baseSpDef, baseSpeed);
 
         types = new Type[2];
         types[0] = Type.FAIRY;

@@ -17,6 +17,6 @@ public class Confide extends StatusMove {
     }
 
     protected String describe() {
-        return "used Confide";
+        return "использует Confide";
     }
 }

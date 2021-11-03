@@ -17,7 +17,8 @@ public class Togetic extends Togepi {
         baseSpAtt = 80.0;
         baseSpDef = 105.0;
         baseSpeed = 40.0;
-        this.setStats(baseHP, baseAtt, baseDef, baseSpAtt, baseSpDef, baseSpeed);
+        this.setStats(baseHP, baseAtt, baseDef,
+                      baseSpAtt, baseSpDef, baseSpeed);
 
         types[1] = Type.FLYING;
         this.addType(types[1]);

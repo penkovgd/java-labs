@@ -12,7 +12,7 @@ public class Rest extends StatusMove {
     public Rest() {
         super();
         type = Type.PSYCHIC;
-        restEff = new Effect().turns(2).condition(Status.SLEEP);
+        restEff = new Effect().condition(Status.SLEEP).turns(2);
     }
 
     protected void applySelfEffects(Pokemon p) {
@@ -21,7 +21,7 @@ public class Rest extends StatusMove {
     }
 
     protected String describe() {
-        return "used Rest";
+        return "использует Rest";
     }
 
 }

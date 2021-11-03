@@ -12,6 +12,6 @@ public class Tackle extends PhysicalMove {
     }
 
     protected String describe() {
-        return "used Tackle";
+        return "использует Tackle";
     }
 }

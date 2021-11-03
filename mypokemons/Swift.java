@@ -17,6 +17,6 @@ public class Swift extends SpecialMove {
     }
 
     protected String describe() {
-        return "used Swift";
+        return "использует Swift";
     }
 }

@@ -17,6 +17,6 @@ public class Growl extends StatusMove {
     }
 
     protected String describe() {
-        return "used Growl";
+        return "использует Growl";
     }
 }

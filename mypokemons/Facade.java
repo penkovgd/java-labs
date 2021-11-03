@@ -14,15 +14,16 @@ public class Facade extends PhysicalMove {
     }
 
     protected double calcBaseDamage(Pokemon att, Pokemon def) {
-        if (def.getCondition() == Status.BURN ||
-                def.getCondition() == Status.POISON ||
-                def.getCondition() == Status.PARALYZE) {
+        Status cond = def.getCondition();
+        if (cond.equals(Status.BURN) ||
+                cond.equals(Status.POISON) ||
+                cond.equals(Status.PARALYZE)) {
             power *= 2;
         }
         return super.calcBaseDamage(att, def);
     }
 
     protected String describe() {
-        return "used Facade";
+        return "использует Facade";
     }
 }

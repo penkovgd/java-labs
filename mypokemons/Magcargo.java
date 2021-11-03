@@ -17,7 +17,8 @@ public class Magcargo extends Slugma {
         baseSpAtt = 90.0;
         baseSpDef = 80.0;
         baseSpeed = 30.0;
-        this.setStats(baseHP, baseAtt, baseDef, baseSpAtt, baseSpDef, baseSpeed);
+        this.setStats(baseHP, baseAtt, baseDef,
+                      baseSpAtt, baseSpDef, baseSpeed);
 
         types[1] = Type.ROCK;
         this.addType(types[1]);

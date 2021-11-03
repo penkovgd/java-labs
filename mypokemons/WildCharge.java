@@ -18,6 +18,6 @@ public class WildCharge extends PhysicalMove {
     }
 
     protected String describe() {
-        return "used Wild Charge";
+        return "использует Wild Charge";
     }
 }

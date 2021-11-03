@@ -1,19 +1,19 @@
 import mypokemons.*;
-import ru.ifmo.se.pokemon.*;
+import ru.ifmo.se.pokemon.Battle;
+import ru.ifmo.se.pokemon.Pokemon;
 
-class labDemo {
+public class labDemo {
     public static void main(String[] args) {
         Pokemon[] allies = {
-                new Slugma("Слугма", 5),
-                new Togetic("Тогетик", 10),
-                new Rayquaza("Райкваза", 15)
+                new Slugma("Волк", 3),
+                new Togetic("Всеволод", 5),
+                new Togekiss("Владимир", 10)
         };
         Pokemon[] foes = {
-                new Togepi("Тогепи", 5),
-                new Magcargo("Магкарго", 10),
-                new Togekiss("Тогекисс", 15)
+                new Togepi("Святослав", 4),
+                new Magcargo("Радослав", 10),
+                new Rayquaza("Ростислав", 8)
         };
-
         Battle battle = new Battle();
         for (Pokemon p : allies) battle.addAlly(p);
         for (Pokemon p : foes) battle.addFoe(p);

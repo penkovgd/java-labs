@@ -26,7 +26,8 @@ public class Slugma extends Pokemon {
         baseSpAtt = 70.0;
         baseSpDef = 40.0;
         baseSpeed = 20.0;
-        this.setStats(baseHP, baseAtt, baseDef, baseSpAtt, baseSpDef, baseSpeed);
+        this.setStats(baseHP, baseAtt, baseDef,
+                      baseSpAtt, baseSpDef, baseSpeed);
 
         types = new Type[2];
         types[0] = Type.FIRE;

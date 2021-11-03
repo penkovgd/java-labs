@@ -10,6 +10,6 @@ public class HydroPump extends SpecialMove {
     }
 
     protected String describe() {
-        return "used Hydro Pump";
+        return "использует Hydro Pump";
     }
 }

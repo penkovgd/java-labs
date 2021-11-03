@@ -15,7 +15,8 @@ public class Togekiss extends Togetic {
         baseSpAtt = 120.0;
         baseSpDef = 115.0;
         baseSpeed = 80.0;
-        this.setStats(baseHP, baseAtt, baseDef, baseSpAtt, baseSpDef, baseSpeed);
+        this.setStats(baseHP, baseAtt, baseDef,
+                      baseSpAtt, baseSpDef, baseSpeed);
 
         wildCharge = new WildCharge();
         this.addMove(wildCharge);

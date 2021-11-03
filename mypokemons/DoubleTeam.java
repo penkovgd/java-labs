@@ -17,6 +17,6 @@ public class DoubleTeam extends StatusMove {
     }
 
     protected String describe() {
-        return "used Double Team";
+        return "использует Double Team";
     }
 }
