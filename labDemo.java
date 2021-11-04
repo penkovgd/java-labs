@@ -1,6 +1,5 @@
-import mypokemons.*;
-import ru.ifmo.se.pokemon.Battle;
-import ru.ifmo.se.pokemon.Pokemon;
+import mypokemons.pokemons.*;
+import ru.ifmo.se.pokemon.*;
 
 public class labDemo {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package mypokemons;
+package mypokemons.pokemons;
+
+import mypokemons.moves.*;
 
 public class Togekiss extends Togetic {
     protected WildCharge wildCharge;

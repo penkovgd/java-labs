@@ -1,6 +1,7 @@
-package mypokemons;
+package mypokemons.pokemons;
 
 import ru.ifmo.se.pokemon.*;
+import mypokemons.moves.*;
 
 public class Rayquaza extends Pokemon {
     protected double baseHP;

@@ -1,6 +1,7 @@
-package mypokemons;
+package mypokemons.pokemons;
 
 import ru.ifmo.se.pokemon.*;
+import mypokemons.moves.*;
 
 public class Magcargo extends Slugma {
     protected HydroPump hydroPump;

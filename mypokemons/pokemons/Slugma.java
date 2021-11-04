@@ -1,6 +1,7 @@
-package mypokemons;
+package mypokemons.pokemons;
 
 import ru.ifmo.se.pokemon.*;
+import mypokemons.moves.*;
 
 public class Slugma extends Pokemon {
     protected double baseHP;
