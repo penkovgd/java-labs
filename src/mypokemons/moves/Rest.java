@@ -7,16 +7,13 @@ public class Rest extends StatusMove {
      * This fully restores the user’s HP and heals any status conditions.
      */
 
-    Effect restEff;
-
     public Rest() {
         super();
         type = Type.PSYCHIC;
-        restEff = new Effect().condition(Status.SLEEP).turns(2);
     }
 
     protected void applySelfEffects(Pokemon p) {
-        p.addEffect(restEff);
+        p.setCondition(new Effect().condition(Status.SLEEP).turns(2));
         p.restore();
     }
 

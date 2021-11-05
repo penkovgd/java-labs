@@ -5,13 +5,13 @@ public class labDemo {
     public static void main(String[] args) {
         Pokemon[] allies = {
                 new Slugma("Волк", 3),
-                new Togetic("Всеволод", 5),
-                new Togekiss("Владимир", 10)
+                new Togetic("Всеволод", 8),
+                new Togekiss("Владимир", 15)
         };
         Pokemon[] foes = {
                 new Togepi("Святослав", 4),
-                new Magcargo("Радослав", 10),
-                new Rayquaza("Ростислав", 8)
+                new Magcargo("Радослав", 6),
+                new Rayquaza("Ростислав", 15)
         };
         Battle battle = new Battle();
         for (Pokemon p : allies) battle.addAlly(p);
