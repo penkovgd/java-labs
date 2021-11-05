@@ -1,4 +1,4 @@
 #!/bin/bash
-javac -cp Pokemon.jar -d classes labDemo.java mypokemons/*/*
-jar cfm java-lab.jar manifestAddition -C classes .
-java -jar java-lab.jar
+javac -cp lib/Pokemon.jar -d classes src/labDemo.java src/mypokemons/*/*
+jar cfm java-lab2.jar doc/manifestAddition -C classes .
+java -jar java-lab2.jar

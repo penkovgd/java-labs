@@ -1,2 +1,2 @@
 Main-Class: labDemo
-Class-Path: Pokemon.jar
+Class-Path: lib/Pokemon.jar
