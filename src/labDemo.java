@@ -1,4 +1,4 @@
-import mypokemons.pokemons.*;
+import pokemons.*;
 import ru.ifmo.se.pokemon.*;
 
 public class labDemo {
